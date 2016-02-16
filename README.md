@@ -151,7 +151,7 @@ names(extractedData)<-gsub("angle", "Angle", names(extractedData))
 names(extractedData)<-gsub("gravity", "Gravity", names(extractedData))
 Here are the names of the variables in extractedData after they are edited
 names(extractedData)
-##[1] "TimeBodyAccelerometerMean()-X"                     "TimeBodyAccelerometerMean()-Y"                    
+<!-- ##[1] "TimeBodyAccelerometerMean()-X"                     "TimeBodyAccelerometerMean()-Y"                    
 ##[3] "TimeBodyAccelerometerMean()-Z"                     "TimeBodyAccelerometerSTD()-X"                     
 ##[5] "TimeBodyAccelerometerSTD()-Y"                      "TimeBodyAccelerometerSTD()-Z"                     
 ##[7] "TimeGravityAccelerometerMean()-X"                  "TimeGravityAccelerometerMean()-Y"                 
@@ -195,7 +195,7 @@ names(extractedData)
 # [83] "Angle(TimeBodyGyroscopeJerkMean,GravityMean)"      "Angle(X,GravityMean)"                             
 # [85] "Angle(Y,GravityMean)"                              "Angle(Z,GravityMean)"                             
 # [87] "Activity"                                          "Subject"
-
+ -->
 
 ##########Part 5 - From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject
 Firstly, let us set Subject as a factor variable.
